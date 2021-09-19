@@ -102,7 +102,7 @@ input, select, textarea {
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
-		font-size: 13pt;
+		font-size: 13pt !important;
 	}
 
 	a {
@@ -2046,6 +2046,7 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		font-family: "Open Sans", sans-serif !important;
 	}
 
 		#nav ul {
