@@ -2283,7 +2283,7 @@ input, select, textarea {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			background-color: transparent;
+			background: transparent;
 			box-shadow: none;
 		}
 
@@ -2314,6 +2314,10 @@ input, select, textarea {
 			font-weight: 600;
 		}
 
+		/* resume page */
+		body.w3-light-grey #mobile_nav ul{
+			margin-top: -10px;
+		}
 	}
 
 /* Small */
