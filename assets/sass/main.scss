@@ -558,12 +558,13 @@
 				border-radius: 6px;
 				top: 0;
 				position: relative;
+				text-decoration: none;
 
 				&:before {
 					@include vendor('background-image', ('url("images/bg.png")', 'linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2))'));
 					@include vendor('transition', 'background-color .2s ease-in-out');
 					background-color: #444;
-					border-radius: 6px;
+					border-radius: 4px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
