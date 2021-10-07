@@ -2148,6 +2148,25 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	.w3-light-grey #contact{
+		margin-top: 3rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.w3-light-grey #contact h3{
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+
+	.w3-light-grey #contact hr{
+		border: 0;
+		border-top: solid 1px #444;
+		border-top-color: rgba(0, 0, 0, 0.35);
+		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+		height: 1px;
+		margin: 3em 0;
+	}
+
 /* Copyright */
 
 	#copyright {
