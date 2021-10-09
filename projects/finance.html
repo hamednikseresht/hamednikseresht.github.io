@@ -4,6 +4,7 @@
 		<title>Hamed Nikseresht Data Lover</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="../images/favicon.png" type="image/png" sizes="64x64">
 		<link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
@@ -23,6 +24,20 @@
 					<li><a href="/index.html#contact">Contact me</a></li>
 				</ul>
 			</nav>
+
+		<!-- Mobile Nav -->
+    <nav id="mobile_nav">
+      <button id="mobile_menu_button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="container toggle_menu" id="mobile_menu">
+        <li><a href="/index.html#top" class="mobile_menu_item_link">About me</a></li>
+        <li><a href="/index.html#portfolio" class="mobile_menu_item_link">My Projects</a></li>
+        <li><a href="/index.html#work" class="mobile_menu_item_link">My Interests</a></li>
+        <li><a href="/Resume.html" class="mobile_menu_item_link">My Resume</a></li>
+        <li><a href="/index.html#contact" class="mobile_menu_item_link">Contact me</a></li>
+      </ul>
+    </nav> 
 
 <!-- Header -->
 <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
@@ -83,15 +98,83 @@
     </div>
   </div>
 </div>
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+<!-- <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
-</div>
+</div> -->
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<!-- <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+</footer> -->
 
+<article id="contact" class="wrapper style4">
+  <!--
+    <div class="container medium">
+      <header>
+        <h2>Have me make stuff for you.</h2>
+        <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+      </header>
+      <div class="row">
+      
+        <div class="col-12">
+          <form method="post" action="#">
+            <div class="row">
+              <div class="col-6 col-12-small">
+                <input type="text" name="name" id="name" placeholder="Name" />
+              </div>
+              <div class="col-6 col-12-small">
+                <input type="text" name="email" id="email" placeholder="Email" />
+              </div>
+              <div class="col-12">
+                <input type="text" name="subject" id="subject" placeholder="Subject" />
+              </div>
+              <div class="col-12">
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                <ul class="actions">
+                  <li><input type="submit" value="Send Message" /></li>
+                  <li><input type="reset" value="Clear Form" class="alt" /></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+        -->
+        <div class="col-12">
+          
+          <h3>Find me on ...</h3>
+          <ul class="social">
+            <li><a href="https://twitter.com/hamednikseresht" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.mql5.com/en/users/hamednikseresht" class="icon brands fa-medium-m" target="_blank"><span class="labesl"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/hamednikseresht/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+            <li><a href="mailto:hamednikseresht@gmail.com" class="fa fa-envelope"><span class="label"></span></a></li>
+            <li><a href="https://www.kaggle.com/hamednikseresht/" class="icon brands fa-kaggle" target="_blank"><span class="label" >kaggle</span></a></li>
+            <li><a href="https://github.com/hamednikseresht/" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+            <!--
+            <li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+            <li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+            <li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+            <li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+            <li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+            <li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+            <li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+            -->
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <footer>
+        <ul id="copyright">
+          <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+</article>
+
+<script src="../assets/js/app.js"></script>
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
