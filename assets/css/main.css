@@ -2357,28 +2357,27 @@ input, select, textarea {
 
 		/* Projects */
 		.project_content_container{
-			position: relative;
+			flex-wrap: wrap;
 		}
 
 		.project_content_container .w3-third.w3-center{
-			position: absolute;
-			/* top: 20px; */
-			/* z-index: -1; */
-			opacity: 0.2;
+			width: 100%;
+			order: 2;
+		}
+
+		.project_content_container .w3-third.w3-center img{
+			width: unset;
 		}
 	}
 
 	@media (min-width: 602px) and (max-width: 780px){
 		/* Projects */
-		.project_content_container{
+		/* .project_content_container{
 			position: relative;
-		}
+		} */
 
 		.project_content_container .w3-twothird{
-			padding: unset;
-		}
-
-		.project_content_container .w3-third.w3-center{
+			padding: 0 1rem;
 			width: 100%;
 		}
 	}
