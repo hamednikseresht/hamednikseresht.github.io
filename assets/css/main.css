@@ -2602,3 +2602,11 @@ input, select, textarea {
     align-items: center;
     padding: 1rem 0;
 }
+
+.accordion-custom-btn{
+	max-width: 100%;
+    background: #c2c2c2;
+    color: #333 !important;
+    /* text-shadow: none; */
+    font-size: 1.3rem;
+}
