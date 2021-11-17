@@ -2605,10 +2605,22 @@ input, select, textarea {
 
 .accordion-custom-btn{
 	max-width: 100%;
-    background: #c2c2c2;
+    background: #c2c2c2 !important;
     color: #333 !important;
-    /* text-shadow: none; */
+	box-shadow: none !important;
+    text-shadow: none;
     font-size: 1.3rem;
+}
+
+.accordion-custom-btn:hover{
+	color:#666 !important;
+	font-weight: 600;
+}
+
+.accordion-custom-btn:focus{
+	border-color: unset !important;
+	box-shadow: none !important;
+	outline: none !important;
 }
 
 .skills_container{
@@ -2620,14 +2632,6 @@ input, select, textarea {
 
 .skill_column{
 	padding-top: 0 !important;
-}
-
-.skill{
-    /* display: flex;
-    align-items: center;
-    justify-content: flex-start;
-	height: 55px;
-    padding: 0.5rem 0; */
 }
 
 .skill_lable{
