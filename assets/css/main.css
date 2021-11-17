@@ -2594,3 +2594,55 @@ input, select, textarea {
 					}
 
 	}
+
+/* custom */
+.d-flex-start-center{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.accordion-custom-btn{
+	max-width: 100%;
+    background: #c2c2c2 !important;
+    color: #333 !important;
+	box-shadow: none !important;
+    text-shadow: none;
+    font-size: 1.3rem;
+}
+
+.accordion-custom-btn:hover{
+	color:#666 !important;
+	font-weight: 600;
+}
+
+.accordion-custom-btn:focus{
+	border-color: unset !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.skills_container{
+    padding: 1rem 0.3rem;
+	padding-top: 0;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.skill_column{
+	padding-top: 0 !important;
+}
+
+.skill_lable{
+    /* color: #ccc; */
+	width: 90px;
+	font-size: 0.85rem;
+	font-weight: 500;
+}
+
+.progress{
+    height: 1.2rem !important;
+    width: 100%;
+    /* margin-left: 9px; */
+}
