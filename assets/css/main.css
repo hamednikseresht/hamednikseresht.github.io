@@ -2610,3 +2610,35 @@ input, select, textarea {
     /* text-shadow: none; */
     font-size: 1.3rem;
 }
+
+.skills_container{
+    padding: 1rem 0.3rem;
+	padding-top: 0;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.skill_column{
+	padding-top: 0 !important;
+}
+
+.skill{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	height: 55px;
+    padding: 0.5rem 0; */
+}
+
+.skill_lable{
+    /* color: #ccc; */
+	width: 90px;
+	font-size: 0.85rem;
+	font-weight: 500;
+}
+
+.progress{
+    height: 1.2rem !important;
+    width: 100%;
+    /* margin-left: 9px; */
+}
