@@ -226,6 +226,14 @@ input, select, textarea {
 	pointer-events: none;
 }
 
+article.box h3{
+	font-size: 1.3rem;
+}
+
+article.box p{
+	font-size: 1rem;
+}
+
 /* Container */
 
 	.container {
