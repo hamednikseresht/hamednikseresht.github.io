@@ -2348,7 +2348,7 @@ article.box p{
 		/* Articles */
 
 			#top {
-				padding: 8em 0;
+				padding: 1em 0;
 			}
 
 				#top .image {
@@ -2366,9 +2366,33 @@ article.box p{
 		/* Articles */
 
 			#top {
-				text-align: center;
-				padding: 5em 0;
+				/* text-align: center; */
+				/* padding: 5em 0; */
+				padding: 1em 0;
+				text-align: left;
 			}
+				#top .row > div:first-child .w3-container span {
+					font-size: 16px;
+				}
+
+				#top .row > div:last-child {
+					padding: 1em 1.8em;
+					text-align: justify;
+				}
+
+				#top .row > div:last-child h2{
+					line-height: 40px;
+					text-align: left;
+				}
+
+				#top .row > div:last-child header{ 
+					margin: 1.5em 0;
+				}
+
+				#top .row > div:last-child .interests{
+					display: inline-block;
+					margin-top: 1em;
+				}
 
 				#top .image {
 					margin: 0 auto 2em auto;
@@ -2405,7 +2429,7 @@ article.box p{
 			font-family: "Open Sans", sans-serif !important;
 			display: flex;
 			width: 100%;
-			height: 44px;
+			height: 55px;
 			flex-direction: column;
 			/* align-items: center;
 			justify-content: flex-start; */
@@ -2419,6 +2443,8 @@ article.box p{
 			align-items: center;
 			background: transparent;
 			box-shadow: none;
+			font-size: 20px;
+			padding: 0.85em 0;
 		}
 
 		#mobile_nav button i.fa-bars{
@@ -2604,10 +2630,10 @@ article.box p{
 
 				.box .image.featured {
 					position: relative;
-					left: 20px;
+					/* left: 20px;
 					top: 20px;
 					margin: -50px 0 50px -40px;
-					width: auto;
+					width: auto; */
 				}
 
 				.box.style1 {
@@ -2688,8 +2714,8 @@ article.box p{
 		
 		/* Custom */
 		a.image.featured > img{
-			width: 50%;
-    		height: 90%;
+			width: auto;
+    		height: inherit;
 		}
 	}
 
