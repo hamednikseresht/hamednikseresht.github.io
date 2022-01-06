@@ -2224,6 +2224,23 @@ article.box p{
 				color: inherit;
 			}
 
+	#portfolio > .container {
+		width : 1300px;
+	}
+
+	#portfolio > .container > .row {
+		transform: scale(0.9);
+	}
+
+	#portfolio > .container > .row .box{
+		padding: 0.5em 1em;
+	}
+
+	#portfolio > .container > .row .box img{
+		width: auto;
+		height: calc(100% - 25px);
+	}
+
 	#contact footer {
 		font-size: 0.9em;
 	}
@@ -2688,7 +2705,11 @@ article.box p{
 				#top p {
 					font-size: 1em;
 				}
-
+			
+			#portfolio > .container > .row{
+				transform: scale(1);
+			}
+			
 			#contact footer {
 				margin: 0;
 			}
